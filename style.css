@@ -224,3 +224,18 @@ img {
   color: #30b868;
 }
 /* brain section ends */
+
+/* early-access section starts */
+.early-access{
+  border-radius: 12px;
+  background-color: #F7F6F2;
+  padding: 80px 0;
+}
+.early-access-desk {
+  max-width: 580px;
+  margin: 0 auto 24px;
+}
+.early-access-contents button{
+  margin-bottom: 16px;
+}
+/* early-access section ends */
