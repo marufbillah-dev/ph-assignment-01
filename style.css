@@ -21,15 +21,21 @@ img {
   max-width: 1360px;
   margin: 0 auto;
 }
+
+.text-dark-1 {
+  color: #627382;
+  font-style: 16px;
+}
 .section-heading {
   font-size: 48px;
   font-weight: bold;
   color: #001931;
   margin-bottom: 16px;
+  text-transform: capitalize;
 }
-.primary-para {
-  color: #627382;
-  line-height: 2;
+.section-py {
+  padding: 60px 0;
+  text-align: center;
 }
 .color-white {
   color: #ffffff;
@@ -149,6 +155,36 @@ img {
   max-width: 700px;
   margin: 0 auto;
   margin-bottom: 32px;
+  color: #ffffff;
+  line-height: 2;
+  font-size: 18px;
 }
 /* hero ends */
 /* header ends */
+
+/* notes section starts */
+.section-desc {
+  margin-bottom: 44px;
+}
+.notes-card-container {
+  display: flex;
+  gap: 25px;
+}
+.notes-card {
+  border-radius: 8px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  width: 25%;
+}
+.notes-card .card-icon {
+  border-radius: 50px;
+  background-color: #f95555;
+  max-width: 60px;
+  padding: 8px;
+}
+/* notes section ends */
