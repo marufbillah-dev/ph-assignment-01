@@ -37,9 +37,7 @@ img {
   padding: 60px 0;
   text-align: center;
 }
-.color-white {
-  color: #ffffff;
-}
+
 .nav-btn {
   padding: 12.5px 16px;
   color: #ffffff;
@@ -89,7 +87,6 @@ img {
 /* shared styles ends */
 
 /* header starts */
-
 /* nav-bar starts */
 .nav {
   display: flex;
@@ -226,16 +223,67 @@ img {
 /* brain section ends */
 
 /* early-access section starts */
-.early-access{
+.early-access {
   border-radius: 12px;
-  background-color: #F7F6F2;
+  background-color: #f7f6f2;
   padding: 80px 0;
 }
 .early-access-desk {
   max-width: 580px;
   margin: 0 auto 24px;
 }
-.early-access-contents button{
+.early-access-contents button {
   margin-bottom: 16px;
 }
 /* early-access section ends */
+
+/* footer starts */
+footer {
+  padding: 120px 0 30px 0;
+  background-color: #001931;
+}
+.footer-contents .logo-and-socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+}
+.footer-logo {
+  max-width: 350px;
+}
+.social-links {
+  max-width: 220px;
+  width: 100%;
+}
+.social-links h3 {
+  color: white;
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.social-icons {
+  display: flex;
+  gap: 16px;
+}
+.social-icons a {
+  color: black;
+}
+.social-icons .icon {
+  border-radius: 100%;
+  background-color: white;
+  height: 25px;
+  width: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr {
+  margin-bottom: 30px;
+  color: #e5e7eb;
+  opacity: 20%;
+}
+.copyright {
+  color: #fafafa;
+  text-align: center;
+}
+/* footer ends */
