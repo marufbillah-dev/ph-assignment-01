@@ -103,6 +103,10 @@ img {
 }
 .nav-items ul a {
   color: #000000;
+  transition: color 0.3s ease;
+}
+.nav-items ul a:hover {
+  color: #469165;
 }
 .hero-btns {
   display: flex;
@@ -183,6 +187,12 @@ img {
   background-color: #f95555;
   max-width: 60px;
   padding: 8px;
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #001931;
 }
 /* notes section ends */
 
